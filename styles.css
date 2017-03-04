@@ -1,0 +1,66 @@
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	color: mediumorchid;
+}
+span {
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	width: 25px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#Backspace {
+	width: 50px;
+}
+#Enter
+ {
+	width: 53px;
+}
+
+#Tab {
+	width: 50px;
+}
+
+#CapsLock {
+	width: 53px;
+}
+
+#ShiftLeft {
+	width: 69px;
+}
+
+#ShiftRight {
+	width: 68px;
+}
+
+body {
+	background-color: black;
+	background-image: url('assets/End2.png');
+}
+
+.active {
+	color: aqua;
+}
+
+#ta {
+	width: 450px;
+	height: 300px;
+	/*font-family: 'Orbitron', sans-serif;*/
+	/*font-family: 'Griffy', cursive;*/
+	/*font-family: 'Gloria Hallelujah', cursive;*/
+}
+
+#button {
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	width: 50px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}

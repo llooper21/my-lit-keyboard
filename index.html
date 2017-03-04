@@ -5,15 +5,19 @@
   <title>My Lit Keyboard</title>
   <link rel="stylesheet" href="styles.css"></link>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 </head>
 <body>
   <div id="main-container">
-    <h1>My Lit Keyboard</h1>
-    <div id="keyboard-container">
-      <div id="screen">
-        <textarea id="ta" autofocus></textarea>
-      </div>
-      <div id="first-row">
+    <center>
+      <h1>My Lit Keyboard</h1>
+      <div id="keyboard-container">
+        <div id="screen">
+         <textarea id="ta" autofocus></textarea>
+       </div>
+       <div id="first-row">
         <span id="`">`</span>
         <span id="1">1</span>
         <span id="2">2</span>
@@ -27,10 +31,10 @@
         <span id="0">0</span>
         <span id="-">-</span>
         <span id="=">=</span>
-        <span id="backspace">delete</span>
-      </div>
-      <div id="second-row">
-        <span id="tab">tab</span>
+        <span id="Backspace">delete</span>
+       </div>
+       <div id="second-row">
+        <span id="Tab">tab</span>
         <span id="q">q</span>
         <span id="w">w</span>
         <span id="e">e</span>
@@ -44,9 +48,9 @@
         <span id="[">[</span>
         <span id="]">]</span>
         <span id="\">\</span>
-      </div>
-      <div id="third-row">
-        <span id="capslock">caps</span>
+       </div>
+       <div id="third-row">
+        <span id="CapsLock">caps</span>
         <span id="a">a</span>
         <span id="s">s</span>
         <span id="d">d</span>
@@ -58,10 +62,10 @@
         <span id="l">l</span>
         <span id=";">;</span>
         <span id="'">'</span>
-        <span id="enter">return</span>
-      </div>
-      <div id="fourth-row">
-        <span id="shiftl">shift</span>
+        <span id="Enter">return</span>
+       </div>
+       <div id="fourth-row">
+        <span id="ShiftLeft">shift</span>
         <span id="z">z</span>
         <span id="x">x</span>
         <span id="c">c</span>
@@ -72,10 +76,16 @@
         <span id=","><</span>
         <span id=".">></span>
         <span id="/">/</span>
-        <span id="shiftr">shift</span>
-      </div>
-    </div>
+        <span id="ShiftRight">shift</span>
+       </div>
+       <button type="reset" value="Reset" onclick="reset()" id="button">Clear Text</button>
+     </div>
+    </center>
+    
   </div>
+  <audio id="cat">
+    <source src="assets/CatCD.mp3">
+  </audio>
   <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
